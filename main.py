@@ -186,7 +186,7 @@ label_lokalizacja_szczegoly_obiektu.grid(row=1, column=6, sticky=W)
 label_lokalizacja_szczegoly_obiketu_wartosc.grid(row=1, column=7, sticky=W)
 
 # RAMKA MAPA
-map_widget = tkintermapview.TkinterMapView(ramka_mapa, width = 900, height=400, corner_radius = 4)
+map_widget = tkintermapview.TkinterMapView(ramka_mapa, width = 1024, height=600, corner_radius = 4)
 map_widget.set_zoom(6)
 map_widget.set_position( 52.2,  21.0)
 
